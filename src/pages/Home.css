@@ -1,0 +1,47 @@
+#Home {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  box-sizing: border-box;
+}
+#Home * {
+  box-sizing: border-box;
+}
+#Home .box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px;
+  padding: 5px;
+  border: solid 1px blueviolet;
+  border-radius: 5px;
+}
+#Home .box .img {
+  width: 50px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: blueviolet;
+  background-position: center;
+  background-size: cover;
+}
+#Home .box .like {
+  cursor: pointer;
+  color: red;
+}
+#Home .input {
+  margin-top: 20px;
+  display: flex;
+}
+#Home .input input {
+  flex: 1;
+  padding: 5px;
+  margin-right: 10px;
+  border-radius: 5px;
+  border: solid 1px blueviolet;
+}
+#Home .input button {
+  padding: 5px;
+  color: #fff;
+  border-radius: 5px;
+  background-color: blueviolet;
+}
